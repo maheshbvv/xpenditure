@@ -1,0 +1,231 @@
+<head>
+  <title>Xpenditure - Your Pocket Budget</title>
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+{{> header}}
+  
+{{> page1}}
+
+{{> page2}}
+{{> page3}}
+{{> signup}}
+{{> outering}}
+{{> footer}}
+ 
+</body>
+<template name="header" id="myheader">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="page-header">
+			<a href="http://www.xpenditure.me"><h1>Xpenditure</h1></a>
+		</div>
+	</nav>
+</template>
+
+<template name="page1">
+	<div class="container" id="home">
+		<div class="jumbotron" >
+			<center>
+				<span class="span12">
+				<span><h1 class="h1">Xpenditure </h1><h2>is to keep an eye on your EXPENSE everyday</h2>
+				<h3 id="blink">Launching this November</h3></span> <br>
+					<p><a href="#signup" class="turquoise-flat-button" role="button">Sign Up </a><span class="or"> or</span> <a href="#page2" class="nephritis-flat-button" role="button">How it helps?</a></p><br>
+					
+				
+				</span>
+			</center>
+		</div>
+	</div>
+</template>
+
+<template name="page2" id="page2">
+
+	<a name="page2" class="container" >
+		<div id="ytCarousel" class="carousel slide" data-ride="carousel" data-slide-to="0" data-interval=false>
+		  <!-- Indicators -->
+		  
+ 
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+			  <div class="item active"> <!-- Slider1 -->
+				  <img src="yt1.jpg" class="img-responsive">
+				  <div class="carousel-caption">
+					  <span class="span6">
+						  <p>
+						  	Xpenditure is concepted with an online financial diary. It's like your personal ledger of expenses. It can store your daily transaction details. It will ask you about the following. <br>
+							<li>Date of Transaction</li>
+							<li>A small Description</li>
+							<li>Amount you spent</li>								
+							<li>Account/Card used</li>
+						  </p>
+						  <h1 class="yt-h1-slider">Let's  see how it works</h1>
+						  <br>
+				
+						  <a class="sun-flower-button" href="#ytCarousel" data-slide="next">Take a Tour</a>
+					  </span>
+				
+				  </div>
+			  </div>
+			  <div class="item"><!-- Slider2 -->
+				  <img src="yt1.jpg" class="img-responsive">
+				  <div class="carousel-caption">
+					  <center>
+						  <span class="span6">
+							  
+				<p>How ofter do you worry about your budget a month? <br>
+					How often do you get a good grip on that? <br>
+					If your answer is "less" or "very less", <br>
+					then you have a chearful friend waiting for you. <br>
+					That's <strong><em>Xpenditure</em></strong>. <br>
+					It can help you in calculating your budget for a month and 'alert' you on the expense you are expecting for each day, and many more things to come.</p>
+					<br>
+				<h1 class="yt-h1-slider">As useful as a CALCULATOR</h1><br>
+				
+				</span>
+				</center>
+		      </div>
+		    </div>
+		    <div class="item"><!-- Slider3 -->
+		      <img src="yt1.jpg" class="img-responsive">
+		      <div class="carousel-caption">
+		          <span class="span6">
+					
+		          	<p>How hard is sending a text message? Xpenditure is as simple as that.
+						You enter the transaction detail, as cool as you type in a text message, and push add button on the page, it will be stored in our server, and you can see your transactions live, like you read your sent messages. One advanced point here is, you cannot edit a sent text, but here you can edit or delete your previous transactions.
+			</p>
+			<br>
+				<h1 class="yt-h1-slider">As simple as a TEXT MESSAGE</h1><br>	
+		          </span>
+		      </div>
+		    </div>
+		    
+		    <div class="item"><!-- Slider4 -->
+		      <img src="yt1.jpg" class="img-responsive">
+		      <div class="carousel-caption">
+		          <span class="span6">
+					
+		          	<p>
+		          		Do you have a twitter account? <br>
+				Then you have one in Xpenditure too.<br>
+				Log in with your Twitter account, and add your transactions.<br>
+				It's safe with your, until your Twitter account is compromised.<br>
+				Log in back with your Twitter account and see it from anywhere.
+		          	</p>
+					<br>
+				<h1 class="yt-h1-slider">As easy and secured as a TWEET</h1><br>	
+				<a href="#page3" class="sun-flower-button" role="button">Join Us! </a>
+		          </span>
+		      </div>
+		    </div>
+		    
+		    
+		  </div>
+ 
+		  <!-- Controls -->
+ 		   
+		 
+		   <a class="right carousel-control" href="#ytCarousel" role="button" data-slide="next">
+			<span class="fa fa-angle-right"></span>
+		</a>
+		</div> <!-- Carousel -->
+	</a>
+	
+</template>
+<template name="page3" id="page3">
+	<a name="page3" class="container" >
+		<div id="pageCarousel" class="carousel slide" data-ride="carousel" data-interval=false>
+	    <div class="item"><!-- Slider5 -->
+	      <img src="yt1.jpg" class="img-responsive">
+	      <div class="carousel-caption">
+	          <span class="span6">
+				
+	          	<p>
+	          		Click sign up<br>
+			Will take you to another page.<br>
+			Provide your details there and subscribe.<br>
+			This service is completely free.<br>
+			What you need is a twitter account
+	          	</p>
+				<br>
+			<h1 class="yt-h1-slider">Get notified as soon as we are up</h1><br>	
+			<a href="#signup" class="sun-flower-button" role="button">Sign Up </a> <span class="freecolor or"> or</span>
+			<a href="#page2" class="turquoise-flat-button" role="button" id="goback">Read Again? </a>
+			
+	          </span>
+	      </div>
+	    </div>
+    </div>
+	</a>
+</template>
+
+
+<template name="signup" id="signup">
+	<a name="signup" class="container" >
+		<div id="pageCarousel" class="carousel slide" data-ride="carousel" data-interval=false>
+	    <div class="item"><!-- Slider5 -->
+	      <img src="yt1.jpg" class="img-responsive">
+	      <div class="comedown carousel-caption">
+	          <span class="span12">
+				
+				<p class="p">We take this opportunity to welcome to YOU to our Family <br><br>and let you know what are we upto!..<br> <br> Subscribe and get support 24x7</p>
+				<!-- Begin MailChimp Signup Form -->
+				<form action="//meteor.us8.list-manage.com/subscribe/post?u=86527eb4604f90806257f322e&amp;id=78d012b283" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>	
+					<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name*">
+					<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name*">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email * (A valid one, please!)">
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>   
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_86527eb4604f90806257f322e_78d012b283" tabindex="-1" value=""></div>
+				 <span><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sun-flower-button-2"> <input type="reset" value="Clear" name="clear" id="clear" class="nephritis-flat-button-2"></div></span>
+				    </div>
+				</form>
+				<br>
+				<h1>Looking for something more?</h1>
+			<a href="mailto:support@xpenditure.me" target="_blank"><p>Please feel free to tell us support@xpenditure.me</p></a>
+	          </span>
+			
+	      </div>
+	    </div>
+    </div>
+	</a>
+</template>
+
+
+
+
+
+
+<template name="outering">
+	<div class="outer container" id="outer"><hr><hr><hr></div>
+
+</template>
+
+<template name="footer">
+  
+	<div class="alert alert-info">
+		<span class="span9">
+			<p>made in India by <a href="http://www.excelguardian.com"><span class="eg">Excel Guardian </span></a>| © Xpenditure 2014  </p>
+		</span>
+
+		<span class="span3" align="right">
+			<a class="fa fa-facebook-square fa-2x" href="http://www.facebook.com/xpenditurepage"></a>
+			<a class="fa fa-twitter-square fa-2x" href="http://twitter.com/ExcelGuardian"></a>
+			<a class="fa fa-youtube-square fa-2x" href="http://www.youtube.com/user/excelguardian"></a>
+
+
+		</span>
+
+	</div>
+</template>	
